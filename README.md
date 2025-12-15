@@ -15,12 +15,12 @@ Import ForeFlight `.fpl` flight plan files directly into Windy.com and visualize
 ### Option 1: Use Hosted Plugin
 Open this URL in your browser:
 ```
-https://www.windy.com/?plugin=https://YOUR_USERNAME.github.io/windy-plugin-foreflight-import/plugin.js
+https://www.windy.com/?plugin=https://nickrioux.github.io/windy-plugin-foreflight-import/plugin.js
 ```
 
 ### Option 2: Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/windy-plugin-foreflight-import.git
+git clone https://github.com/nickrioux/windy-plugin-foreflight-import.git
 cd windy-plugin-foreflight-import
 npm install
 npm start
