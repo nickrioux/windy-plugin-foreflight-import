@@ -1,0 +1,15 @@
+{
+  "name": "windy-plugin-foreflight-import",
+  "version": "1.0.0",
+  "icon": "✈️",
+  "title": "ForeFlight Import",
+  "description": "Import ForeFlight .fpl flight plans and visualize routes with weather",
+  "author": "Nicolas",
+  "desktopUI": "rhpane",
+  "mobileUI": "small",
+  "desktopWidth": 280,
+  "routerPath": "/foreflight-import",
+  "built": 1765833322327,
+  "builtReadable": "2025-12-15T21:15:22.327Z",
+  "screenshot": "screenshot.jpg"
+}
