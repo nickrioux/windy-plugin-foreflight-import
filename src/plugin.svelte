@@ -158,7 +158,7 @@
     function openInDistance(): void {
         if (!flightPlan) return;
         const url = generateDistanceUrl(flightPlan);
-        window.location.href = url;
+        window.open(url, '_blank');
     }
 
     export const onopen = (_params: unknown) => {
