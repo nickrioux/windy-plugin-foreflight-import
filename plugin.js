@@ -9,8 +9,8 @@ const __pluginConfig =  {
   "mobileUI": "small",
   "desktopWidth": 280,
   "routerPath": "/foreflight-import",
-  "built": 1765833322316,
-  "builtReadable": "2025-12-15T21:15:22.316Z",
+  "built": 1765917188771,
+  "builtReadable": "2025-12-16T20:33:08.771Z",
   "screenshot": "screenshot.jpg"
 };
 
@@ -1439,7 +1439,7 @@ function instance($$self, $$props, $$invalidate) {
 	function openInDistance() {
 		if (!flightPlan) return;
 		const url = generateDistanceUrl(flightPlan);
-		window.location.href = url;
+		window.open(url, '_blank');
 	}
 
 	const onopen = _params => {
